@@ -1,0 +1,3 @@
+name: interactive-resume
+description: Interactive resume with glassmorphism effects deployed to AWS
+runtime: nodejs

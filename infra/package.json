@@ -1,0 +1,16 @@
+{
+  "name": "infra",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^5.42.0",
+    "@pulumi/pulumi": "^3.105.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

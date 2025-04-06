@@ -1,0 +1,5 @@
+config:
+  aws:region: us-west-2
+  interactive-resume:sitePath: "./dist"
+  interactive-resume:indexDocument: "index.html"
+  interactive-resume:errorDocument: "404.html"
